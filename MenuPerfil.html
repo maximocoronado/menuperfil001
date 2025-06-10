@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="CSS/tailwindcss3.4.16.js" data-gx-external-script></script>
+    <link rel="stylesheet" type="text/css" href="CSS/menuusu.css" />
+</head>
+
+<body>
+    <div class="user-profile-container relative flex items-center space-x-3 cursor-pointer">
+        <img src="CSS/fotousu.png"></img>
+
+        <div
+            class="dropdown-menu-wrapper absolute top-full right-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-xl z-10">
+            <ul class="dropdown-menu p-2">
+
+                <li
+                    class="flex items-center p-2 rounded-md hover:bg-blue-50 transition duration-150 ease-in-out hover:shadow-md">
+                    <img src="https://placehold.co/28x28/3B82F6/FFFFFF?text=P" alt="Icono Mi Perfil"
+                        class="w-7 h-7 rounded-full mr-3 object-cover"
+                        onerror="this.onerror=null;this.src='https://placehold.co/28x28/3B82F6/FFFFFF?text=Profile';">
+                    <a href="#" class="text-gray-800 font-medium hover:text-blue-700 w-full">Mi Perfil</a>
+                </li>
+
+                <li class="flex items-center p-2 rounded-md hover:bg-blue-50 transition duration-150 ease-in-out mt-1">
+                    <img src="https://placehold.co/24x24/10B981/FFFFFF?text=C" alt="Icono Configuraciones"
+                        class="w-6 h-6 rounded-full mr-3 object-cover"
+                        onerror="this.onerror=null;this.src='https://placehold.co/24x24/10B981/FFFFFF?text=Settings';">
+                    <a href="#" class="text-gray-800 font-medium">Configuraciones</a>
+                </li>
+
+                <li class="border-t border-gray-200 my-2"></li>
+
+                <li class="flex items-center p-2 rounded-md hover:bg-red-50 transition duration-150 ease-in-out">
+                    <img src="https://placehold.co/24x24/D97706/FFFFFF?text=CS" alt="Icono Cerrar Sesión"
+                        class="w-6 h-6 rounded-full mr-3 object-cover"
+                        onerror="this.onerror=null;this.src='https://placehold.co/24x24/D97706/FFFFFF?text=Logout';">
+                    <a href="https://www.google.com" class="text-red-600 font-medium">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
